@@ -114,7 +114,7 @@ ul li span:hover{
 
 @media screen and (max-width: 479px) {
     .todo{
-        width: 70%;
+        width: 80%;
     }
 
     .row{
@@ -124,11 +124,11 @@ ul li span:hover{
     }
 
     input{
-        flex: 1;
+        max-width: 350px;
+        flex: 0%;
         padding: 20px;
         font-size: 16px;
         text-align: center;
-        width: 28px;
     }
     
     button{
