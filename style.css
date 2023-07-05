@@ -111,3 +111,26 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+@media screen and (max-width: 479px) {
+    .todo{
+        width: 70%;
+    }
+
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input{
+        flex: 1;
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    button{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
